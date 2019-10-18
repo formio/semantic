@@ -1,0 +1,21 @@
+{
+  "name": "@formio/semantic",
+  "version": "1.0.0",
+  "description": "Semantic UI templates for form.io forms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Semantic",
+    "UI",
+    "form.io",
+    "forms"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formio/semantic.git"
+  },
+  "author": "randall@form.io",
+  "license": "ISC"
+}
