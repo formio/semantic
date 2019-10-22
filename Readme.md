@@ -6,7 +6,7 @@ This repository will change the rendering of forms in formio.js so that it uses 
 
 ```javascript
 import semantic from '@formio/semantic';
-import Formio from 'formiojs';
+import { Formio } from 'formiojs';
 
 Formio.use(semantic);
 ```
