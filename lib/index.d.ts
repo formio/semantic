@@ -83,6 +83,7 @@ declare const _default: {
             };
             field: {
                 form: string;
+                align: string;
             };
             fieldset: {
                 form: string;
