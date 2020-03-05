@@ -1,7 +1,9 @@
-<div class="formio-wizard-position">
-  {{ ctx.wizardHeader }}
-  <div class="wizard-page" ref="{{wizardKey}}">
-    {{ctx.components}}
+<div class="{{ctx.className}}">
+  <div class="formio-wizard-position">
+    {{ ctx.wizardHeader }}
+    <div class="wizard-page" ref="{{wizardKey}}">
+      {{ctx.components}}
+    </div>
+    {{ ctx.wizardNav }}
   </div>
-  {{ ctx.wizardNav }}
 </div>
