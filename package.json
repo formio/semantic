@@ -1,6 +1,6 @@
 {
   "name": "@formio/semantic",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Semantic UI templates for form.io forms.",
   "main": "lib/index.js",
   "scripts": {
@@ -48,5 +48,5 @@
     "url": "git+https://github.com/formio/semantic.git"
   },
   "author": "randall@form.io",
-  "license": "ISC"
+  "license": "MIT"
 }
