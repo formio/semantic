@@ -1,6 +1,12 @@
 <div class="ui {{ctx.component.editor ? '' : 'input'}} fluid {{ ctx.component.suffix ? ' right' : '' }}{{ (ctx.component.prefix || ctx.component.suffix) ? ' labeled' : '' }}">
 {% if (ctx.component.prefix) { %}
-<label class="ui label" ref="prefix">{{ctx.component.prefix}}</label>
+<label class="ui label" ref="prefix">
+{% if(ctx.component.prefix instanceof HTMLElement){ %}
+  {{ ctx.t(ctx.component.prefix.outerHTML) }}
+{% } else{ %}
+  {{ ctx.t(ctx.component.prefix) }}
+{% } %}
+</label>
 {% } %}
 {% if (!ctx.component.editor && !ctx.component.wysiwyg) { %}
 <{{ctx.input.type}}
@@ -20,6 +26,12 @@
 <span class="ui right floated" ref="wordcount"></span>
 {% } %}
 {% if (ctx.component.suffix) { %}
-<div class="ui label" ref="suffix">{{ctx.component.suffix}}</div>
+<div class="ui label" ref="suffix">
+{% if(ctx.component.suffix instanceof HTMLElement){ %}
+  {{ ctx.t(ctx.component.suffix.outerHTML) }}
+{% } else{ %}
+  {{ ctx.t(ctx.component.suffix) }}
+{% } %}
+</div>
 {% } %}
 </div>
