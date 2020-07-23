@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.4.4
+### Changed
+ - FJS-1050: added hide label option for panel
+ - Added prefix and suffix to input component template.
+
 ## 2.4.3
 ### Changed
  - Added a for attributes to labels.
