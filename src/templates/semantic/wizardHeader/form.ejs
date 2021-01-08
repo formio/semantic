@@ -3,7 +3,14 @@
     {% ctx.panels.forEach(function(panel, index) { %}
     <a class="{{ctx.currentPage === index ? ' active' : ''}} step" ref="{{ctx.wizardKey}}-link">
       <div class="content">
-        <div class="title">{{panel.title}}</div>
+        <div class="title">
+        {{panel.title}}
+        {% if (panel.tooltip && ctx.currentPage === index) { %}
+        <span data-tooltip="{{ctx.wizardPageTooltip}}" data-position="right center">
+        <i class="{{ctx.iconClass('question-sign')}}"></i>
+        </span>
+        {% } %}
+        </div>
       </div>
     </a>
     {% }) %}
