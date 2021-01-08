@@ -40,6 +40,8 @@ import treePartials from './tree/partials';
 import webform from './webform';
 import well from './well';
 import wizard from './wizard';
+import alert from './alert';
+import errorsList from './errorsList';
 
 export default {
   transform(type, text) {
@@ -115,4 +117,6 @@ export default {
   webform,
   well,
   wizard,
+  alert,
+  errorsList
 };

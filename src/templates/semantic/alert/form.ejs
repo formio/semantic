@@ -1,0 +1,9 @@
+<div
+  {% for (var attr in ctx.attrs) { %}
+    {% if (attr === "class") { %}
+      {{attr}}="ui message {{ctx.attrs[attr]}}"
+    {% } else { %}
+      {{attr}}="{{ctx.attrs[attr]}}"
+    {% } %}
+  {% } %}
+>{{ctx.message}}</div>
