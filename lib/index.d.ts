@@ -16,6 +16,12 @@ declare const _default: {
                 form: string;
                 builder: string;
             };
+            alert: {
+                form: string;
+            };
+            errorsList: {
+                form: string;
+            };
             treeView: {
                 form: string;
             };

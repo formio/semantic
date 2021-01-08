@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.5.0
+### Fixed
+ - UIP-251: Update file template with file drop area hide option
+
+### Added
+ - FMG-99: Add col-md classes to table and dataGrid templates
+ - FJS-1342: added templates for form errors list and alerts
+ - FJS-1419: added tooltip for wizard pages
+
+### Changed
+ - Upgrade @types/ejs@3.0.5, @types/sinon@9.0.10, @types/mocha@8.2.0, @types/node@14.14.20, mocha@8.2.1, sinon@9.2.3, ts-node@9.1.1, ts-sinon@2.0.1, typescript@4.1.3, webpack@5.12.0, webpack-cli@4.3.1
+
 ## 2.4.5
 ### Changed
  - Upgrade dependencies.
