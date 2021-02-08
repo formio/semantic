@@ -11,9 +11,7 @@
       {% ctx.columns.forEach(function(col) { %}
         <th class="{{col.validate && col.validate.required ? 'field-required' : ''}}">
           {{ col.hideLabel ? '' : ctx.t(col.label || col.title) }}
-          {% if (col.tooltip) { %} <span data-tooltip="{{col.tooltip}}" data-position="right center">
-                      <i class="{{ctx.iconClass('question-sign')}}"></i>
-            </span>{% } %}
+          {% if (col.tooltip) { %} <i ref="tooltip" data-title="{{col.tooltip}}" class="{{ctx.iconClass('question-sign')}} text-muted" data-tooltip="{{col.tooltip}}"></i>{% } %}
         </th>
       {% }) %}
       {% if (ctx.hasExtraColumn) { %}
