@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.5.1
+### Fixed
+ - Fixing tooltips
+
 ## 2.5.0
 ### Fixed
  - UIP-251: Update file template with file drop area hide option
