@@ -1,8 +1,10 @@
-<div class="ui top attached tabular menu">
+<div class="tab-container{{ ctx.component.verticalLayout ? ' card-vertical' : ''}}">
+  <div class="ui top attached tabular menu{{ ctx.component.verticalLayout ? ' nav-tabs-vertical' : ''}}">
+    {% ctx.component.components.forEach(function(tab, index) { %}
+    <a class="item{{ ctx.currentTab === index ? ' active' : ''}}" role="presentation" ref="{{ctx.tabLinkKey}}">{{ctx.t(tab.label)}}</a>
+    {% }) %}
+  </div>
   {% ctx.component.components.forEach(function(tab, index) { %}
-  <a class="item{{ ctx.currentTab === index ? ' active' : ''}}" role="presentation" ref="{{ctx.tabLinkKey}}">{{ctx.t(tab.label)}}</a>
+  <div role="tabpanel" class="ui bottom attached tab segment{{ ctx.currentTab === index ? ' active' : ''}}" ref="{{ctx.tabKey}}"">{{ctx.tabComponents[index]}}</div>
   {% }) %}
 </div>
-{% ctx.component.components.forEach(function(tab, index) { %}
-<div role="tabpanel" class="ui bottom attached tab segment{{ ctx.currentTab === index ? ' active' : ''}}" ref="{{ctx.tabKey}}"">{{ctx.tabComponents[index]}}</div>
-{% }) %}
