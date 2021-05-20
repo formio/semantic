@@ -40,6 +40,10 @@ import treePartials from './tree/partials';
 import webform from './webform';
 import well from './well';
 import wizard from './wizard';
+import wizardHeader from './wizardHeader';
+import wizardHeaderClassic from './wizardHeaderClassic';
+import wizardHeaderVertical from './wizardHeaderVertical';
+import wizardNav from './wizardNav';
 import alert from './alert';
 import errorsList from './errorsList';
 
@@ -117,6 +121,10 @@ export default {
   webform,
   well,
   wizard,
+  wizardHeader,
+  wizardHeaderClassic,
+  wizardHeaderVertical,
+  wizardNav,
   alert,
   errorsList
 };
