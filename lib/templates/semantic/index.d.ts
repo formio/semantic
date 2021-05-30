@@ -13,6 +13,18 @@ declare const _default: {
         form: string;
         builder: string;
     };
+    wizardHeader: {
+        form: string;
+    };
+    wizardHeaderClassic: {
+        form: string;
+    };
+    wizardHeaderVertical: {
+        form: string;
+    };
+    wizardNav: {
+        form: string;
+    };
     alert: {
         form: string;
     };

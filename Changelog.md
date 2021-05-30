@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.6.0-rc.1
+### Chagned
+ - FIO-1239: Implement wizard header type selection
+ - FIO-1112: Add vertical layout for tabs component
+ - FIO-2617: File: make webcam available only when option checked
+
 ## 2.5.1
 ### Fixed
  - Fixing tooltips
