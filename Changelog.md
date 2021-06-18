@@ -14,6 +14,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - FIO-1112: Add vertical layout for tabs component
  - FIO-2617: File: make webcam available only when option checked
 
+
+## 2.5.3
+### Fixed
+ - FIO-3323: Removing col from tables since it is causing issues.
+
+## 2.5.2
+### Fixed
+ - FIO-3323: Fixing the datagrid spacing.
+
 ## 2.5.1
 ### Fixed
  - Fixing tooltips
