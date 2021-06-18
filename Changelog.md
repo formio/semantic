@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.5.3
+### Fixed
+ - FIO-3323: Removing col from tables since it is causing issues.
+
 ## 2.5.2
 ### Fixed
  - FIO-3323: Fixing the datagrid spacing.
