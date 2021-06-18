@@ -38,25 +38,25 @@
     {% } %}
     <tr ref="{{ctx.datagridKey}}-row">
       {% if (ctx.component.reorder) { %}
-        <td>
+        <td class="col-md-1">
           <button type="button" class="formio-drag-button ui icon button"><i aria-hidden="true" class="bars icon"></i></button>
         </td>
       {% } %}
       {% ctx.columns.forEach(function(col) { %}
-        <td ref="{{ctx.datagridKey}}" class="col-md-{{ctx.colWidth}}">
+        <td ref="{{ctx.datagridKey}}" class="col-md-{{col.colWidth}}">
           {{row[col.key]}}
         </td>
       {% }) %}
       {% if (ctx.hasExtraColumn) { %}
-        {% if (!ctx.builder && ctx.hasRemoveButtons) { %}
-        <td>
+        {% if (ctx.hasRemoveButtons) { %}
+        <td class="col-md-1">
           <button type="button" class="btn-xss ui icon button secondary formio-{{ ctx.component.type }}-remove" ref="{{ctx.datagridKey}}-removeRow">
             <i class="{{ctx.iconClass('remove')}}"></i>
           </button>
         </td>
         {% } %}
         {% if (ctx.canAddColumn) { %}
-        <td ref="{{ctx.key}}-container">
+        <td ref="{{ctx.key}}-container" class="col-md-1">
           {{ctx.placeholder}}
         </td>
         {% } %}
