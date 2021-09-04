@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.6.0-rc.4
+### Fixed
+ - FIO-3519 Added ref to wizard header for 'scroll to top' feature
+ - FIO-3011 fixed an issue where only '{' character send and returned to/from the server
+
 ## 2.6.0-rc.3
 ### Changed
  - Rebuild.
