@@ -14,9 +14,9 @@
         {% if (item.disabled) { %}
           disabled=true
         {% } %}
-        id="{{ctx.instance.root?.id}}-{{ctx.id}}-{{ctx.row}}-{{item.value}}"
+        id="{{ctx.instance.root && ctx.instance.root.id}}-{{ctx.id}}-{{ctx.row}}-{{item.value}}"
       >
-      <label class="" for="{{ctx.instance.root?.id}}-{{ctx.id}}-{{ctx.row}}-{{item.value}}">
+      <label class="" for="{{ctx.instance.root && ctx.instance.root.id}}-{{ctx.id}}-{{ctx.row}}-{{item.value}}">
         <span>{{ctx.t(item.label)}}</span>
       </label>
     </div>
