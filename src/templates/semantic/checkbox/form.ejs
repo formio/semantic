@@ -11,8 +11,8 @@
   <label class="{{ctx.input.labelClass}}" for="{{ctx.id}}">
     {{ctx.input.content}}
     {% if (!ctx.self.labelIsHidden()) { %}<span>{{ctx.input.label}}</span>{% } %}
-    {% if (ctx.component.tooltip) { %}
-      <i ref="tooltip" class="{{ctx.iconClass('question-sign')}} text-muted" data-tooltip="{{ctx.component.tooltip}}"></i>
-    {% } %}
   </label>
+  {% if (ctx.component.tooltip) { %}
+    <i ref="tooltip" class="{{ctx.iconClass('question-sign')}} text-muted" data-tooltip="{{ctx.component.tooltip}}"></i>
+  {% } %}
 </div>
