@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
  - Increment minor version.
 
+### Fixed
+ - FIO-5369: fixed an issue where clicking on the tooltip enables the checkboxes on the component settings page
+
 ## 2.6.0
 ### Changed
  - Official Release
