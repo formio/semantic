@@ -1,6 +1,6 @@
 {
   "name": "@formio/semantic",
-  "version": "2.6.0",
+  "version": "2.6.1-rc.1",
   "description": "Semantic UI templates for form.io forms.",
   "main": "lib/index.js",
   "scripts": {
