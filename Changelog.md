@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased: 2.7.0-rc.1]
 ### Changed
  - Increment minor version.
+ - Bump minimist from 1.2.5 to 1.2.8
+ - Bump webpack from 5.55.1 to 5.76.0
+ - Bump json5 from 2.1.3 to 2.2.3
+ - Bump decode-uri-component from 0.2.0 to 0.2.2
+ - Bump copy-props from 2.0.4 to 2.0.5
+ - Bump @babel/traverse from 7.10.1 to 7.23.9
+ - Bump nanoid and mocha
+ - Bump yargs-parser and yargs
 
 ### Fixed
  - FIO-5369: fixed an issue where clicking on the tooltip enables the checkboxes on the component settings page
