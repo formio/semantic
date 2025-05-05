@@ -1,6 +1,5 @@
-describe('First Test', () => {
-  it('Runs tests', (done) => {
+describe("First Test", () => {
+  it("Runs tests", (done) => {
     done();
-  })
+  });
 });
-

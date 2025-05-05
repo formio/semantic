@@ -1,5 +1,5 @@
-import semantic from './semantic';
+import goforms from "./goforms";
 
 export default {
-  semantic,
+  goforms,
 };

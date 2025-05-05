@@ -1,12 +1,12 @@
-# Form.io Semantic UI Templates
+# GoForms Template
 
-This repository will change the rendering of forms in formio.js so that it uses html and classes compatible with the [Semantic UI](https://semantic-ui.com/) framework. 
+This repository provides templates for form.io forms in GoForms.
 
 ## Usage
 
 ```javascript
-import semantic from '@formio/semantic';
-import { Formio } from 'formiojs';
+import goforms from 'goforms-template';
+import { Formio } from '@formio/js';
 
-Formio.use(semantic);
+Formio.use(goforms);
 ```

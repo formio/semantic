@@ -1,0 +1,12 @@
+import { TemplateContext } from "../types";
+
+export default (ctx: TemplateContext) => `
+<div class="formio builder ui grid formbuilder">
+  <div class="four wide column formcomponents">
+    ${ctx.sidebar}
+  </div>
+  <div class="twelve wide column formarea" ref="form">
+    ${ctx.form}
+  </div>
+</div>
+`;

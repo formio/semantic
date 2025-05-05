@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
     "preserveConstEnums": true,
     "outDir": "lib",
     "noImplicitAny": false,
     "sourceMap": false,
     "declaration": true,
-    "rootDir": "src"
+    "rootDir": "src",
+    "esModuleInterop": true
   },
   "include": [
-    "src/*.ts",
-    "src/*.ejs",
-    "src/**/*.ts",
-    "src/**/*.ejs"
+    "src/**/*.ts"
   ],
   "exclude": [
     "node_modules",

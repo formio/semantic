@@ -1,173 +1,172 @@
-declare const _default: {
+declare const goforms: {
     framework: string;
     templates: {
-        semantic: {
+        goforms: {
             table: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             webform: {
-                form: string;
-                builder: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             well: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             wizard: {
-                form: string;
-                builder: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             wizardHeader: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             wizardHeaderClassic: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             wizardHeaderVertical: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             wizardNav: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             alert: {
-                form: string;
+                form: (ctx: import("./templates/goforms/alert/form").AlertTemplateContext) => string;
             };
             errorsList: {
-                form: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             treeView: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             treeEdit: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             transform(type: any, text: any): any;
             defaultIconset: string;
             iconClass: (iconset: any, name: any, spinning: any) => string;
             cssClasses: {
-                'has-error': string;
-                'is-invalid': string;
-                'formio-tab-panel-active': string;
-                'formio-tab-link-active': string;
-                'formio-tab-link-container-active': string;
+                "has-error": string;
+                "is-invalid": string;
+                "formio-tab-panel-active": string;
+                "formio-tab-link-active": string;
+                "formio-tab-link-container-active": string;
             };
             builder: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             builderComponent: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             builderComponents: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             builderEditForm: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             builderPlaceholder: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             builderSidebar: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             builderSidebarGroup: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             builderWizard: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             button: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             checkbox: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             columns: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             component: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             datagrid: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             day: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             editgrid: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             field: {
-                form: string;
-                align: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
+                align: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             fieldset: {
-                form: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             file: {
-                form: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             icon: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             input: {
-                form: string;
-                html: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             label: {
-                form: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             loader: {
-                form: string;
+                form: typeof import("./templates/goforms/loader/form").default;
             };
             loading: {
-                form: string;
+                form: typeof import("./templates/goforms/loading/form").default;
             };
             message: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             multiValueRow: {
-                form: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             multiValueTable: {
-                form: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             panel: {
-                form: string;
+                form: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             radio: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             resourceAdd: {
-                form: string;
+                form: typeof import("./templates/goforms/resourceAdd/form").default;
             };
             select: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             selectOption: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             signature: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (_ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             survey: {
-                form: string;
-                html: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                html: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             tab: {
-                flat: string;
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
+                flat: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
             tree: {
-                form: string;
+                form: (ctx: import("./templates/goforms/types").TemplateContext) => string;
             };
         };
     };
 };
-export default _default;
+export default goforms;
+export { goforms };

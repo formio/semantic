@@ -1,0 +1,12 @@
+import { TemplateContext } from "../types";
+
+export default (ctx: TemplateContext) => `<div
+  class="ui info message no-drag"
+  style="text-align:center; margin-bottom: 5px;"
+  role="alert"
+  data-noattach="true"
+  data-position="${ctx.position}"
+>
+  Drag and Drop a form component
+</div>
+`;
